@@ -1,4 +1,4 @@
-from flask import Flask, Blueprint
+from flask import Blueprint
 from app.controller.StudentController import get_all_user, get_user, create_user, update_user, delete_user
 
 
